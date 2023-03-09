@@ -21,7 +21,7 @@ namespace Kitaplik_Proje
         {
 
         }
-        SqlConnection baglanti = new SqlConnection(@"Data Source=DESKTOP-PP3S1OU\SQLEXPRESS;Initial Catalog=Kitaplik;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection(@"Data Source=localhost;Initial Catalog=Kitaplik;Integrated Security=True");
         void Listele()
         {
             DataTable dt = new DataTable();
